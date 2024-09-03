@@ -3,7 +3,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'FLAG IS HERE'
+SECRET_KEY = '[SECRET]'    # <-- not deploy secret key
+FLAG = 'FLAG IS HERE'    # <-- 
+
 DEBUG = False
 
 ALLOWED_HOSTS = ['*']
